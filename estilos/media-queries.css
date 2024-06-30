@@ -1,4 +1,7 @@
 @media only screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(lightskyblue, rgb(87, 45, 155));
+    }
     section#login{
         width: 80%;
         height: 60%;
