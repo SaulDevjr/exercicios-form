@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
     <title>Formularios</title>
 <body>
     <h1>Testando formularios</h1>
-        <form action="" id="form">
+        <form action="document.php" id="form" method="post">
+            <section id="imagem">
+            </section>
             <h2>Login</h2>
-
+            
             <span class="material-symbols-outlined" id="user">
                 person
             </span>
             <input type="email" name="email" id="email" required maxlength="30" placeholder="seu email">
-            <label for="email">Email</label><br>
+            <label for="email"></label><br>
             
             <span class="material-symbols-outlined" id="key">
                 vpn_key
             </span>
-            <input type="password" name="name "id="password" required minlength="8" placeholder="sua senha">
-            <label for="password">Senha</label><br>
+            <input type="password" name="name "id="password" required minlength="8" maxlength="20" placeholder="sua senha">
+            <label for="password"></label><br>
 
             <input type="submit" name="enviar" id="enviar">
             <input type="reset" >
+            
         </form>
     
 </body>
