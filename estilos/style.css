@@ -8,7 +8,7 @@
 body, html{
   width: 100vw;
   height: 100vh;
-  background: #4e96c2c7 url('/img/pattern.jpg');
+  background: #4e96c2c7 url('img/pattern.jpg');
   background-position: cover;
 }
 main {
@@ -35,7 +35,7 @@ section#login > div#imagem {
   display: block;
   width: 100%;
   height: 200px;
-  background: #4e96c2c7 url('/img/predio.jpg') center;
+  background: #4e96c2c7 url('img/predio.jpg') center;
   background-size: cover;
   box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.342);
 }
