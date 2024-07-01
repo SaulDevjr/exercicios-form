@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (max-width: 992px){
+@media only screen and (min-width: 768px) and (max-width: 800px){
     body{
         background-image: linear-gradient(lightskyblue, rgb(87, 45, 155));
     }
@@ -27,7 +27,37 @@
       }
 }
 
+@media only screen and (min-width: 800px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(lightskyblue, rgb(87, 45, 155));
+    }
+    section#login{
+        width: 80%;
+        height: 60%;
+        margin: auto;
+        transition: .3s ease;
+    }
+    section#login div#formulario{
+        float: right;
+        width: 70%;
+        height: 60%;
+    } 
+    section#login div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #formulario #form{
+        margin-left: 110px;
+        margin-top: 25px;
+
+    }
+}
+
 @media only screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(lightskyblue, rgb(87, 45, 155));
+    }
     section#login{
     width: 992px;
     height: 60%;
@@ -44,7 +74,7 @@
         height: 100%;
     }
     #formulario #form{
-        margin-left: 60px;
+        margin-left: 180px;
         margin-top: 20px;
     }
 }
